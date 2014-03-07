@@ -17,7 +17,7 @@ def check_list (list_name, level=0):
             for tab_stop in range(level):
                 print ("\t", end='')
             print (each_item)
-            #follow print need sep, if not will be a space between every items
+            #follow print must set  separator, if not will be a space between every items
             print("\t"*level,each_item, sep='')
 
 check_list (movie)
