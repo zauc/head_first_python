@@ -1,6 +1,7 @@
 # git push
 
 
++ How to push
 ```
 git add README.md
 git commit -m 'First commit'
